@@ -18,7 +18,9 @@ class TwoVC: UIViewController {
 
     
     @IBAction func goToOneBtn(_ sender: Any) {
-        self.performSegue(withIdentifier: "goToOne", sender: nil)
+        
+        dismiss(animated: true, completion: nil)
+        
         
     }
     
